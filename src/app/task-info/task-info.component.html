@@ -1,0 +1,9 @@
+<h2>Task Info</h2>
+Name:  {{model.name}}
+<br>
+Description: {{model.description}}
+<br>
+Time to Complete: {{model.time}}
+<br>
+<button (click)="deleteTask(model.id)">x</button>
+<a [routerLink]="['/edit', model.id]"><button>Edit</button></a>

@@ -1,16 +1,22 @@
 {
   "tasks": [
     {
-      "name": "sfgsfdgds",
-      "description": "tomorrow",
-      "time": "dfgsdfg",
-      "id": 1
-    },
-    {
       "name": "Angular Final Project",
       "description": "Tying everything together",
-      "time": "3 days",
+      "time": "2 days",
       "id": 2
+    },
+    {
+      "name": "b00sh and or kacow",
+      "description": "fooling",
+      "time": "4 years",
+      "id": 3
+    },
+    {
+      "name": "add folders",
+      "description": "fix directories and clean up",
+      "time": "1 day",
+      "id": 4
     }
   ]
 }

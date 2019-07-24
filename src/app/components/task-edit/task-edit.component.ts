@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { TaskDataService } from '../task-data.service';
+import { TaskDataService } from '../../services/task-data.service';
 import { Router, ActivatedRoute } from '@angular/router';
-import { Task } from '../task';
+import { Task } from '../../models/task';
 
 @Component({
   selector: 'app-task-edit',

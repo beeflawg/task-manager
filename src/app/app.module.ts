@@ -4,11 +4,11 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TaskListComponent } from './task-list/task-list.component';
-import { TaskAddComponent } from './task-add/task-add.component';
-import { NavComponent } from './nav/nav.component';
-import { TaskEditComponent } from './task-edit/task-edit.component';
-import { TaskInfoComponent } from './task-info/task-info.component';
+import { TaskListComponent } from './components/task-list/task-list.component';
+import { TaskAddComponent } from './components/task-add/task-add.component';
+import { NavComponent } from './components/nav/nav.component';
+import { TaskEditComponent } from './components/task-edit/task-edit.component';
+import { TaskInfoComponent } from './components/task-info/task-info.component';
 
 @NgModule({
   declarations: [
